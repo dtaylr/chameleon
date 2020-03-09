@@ -1,0 +1,29 @@
+body{
+    background: black;
+    color: white;
+}
+
+.winner{
+
+    color: green;
+}
+
+
+#reset{
+
+    background: red;
+    border: 0;
+}
+
+#p1{
+
+    background: orange;
+    border: 0;
+}
+
+#p2{
+
+    background: green;
+    border: 0;
+}
+

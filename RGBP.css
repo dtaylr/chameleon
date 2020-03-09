@@ -1,0 +1,90 @@
+body{
+    background: #FD6A02;
+    margin: 0; /*makes container extend full width*/
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.1;
+    padding: 20px 0;
+    color: white;
+    background: #FFBF00;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.selected {
+	color: #960018;
+    background-color: #FFBF00;
+}
+
+#message{
+
+    font-weight: 700;
+    color: #FFBF00;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-size: inherit;
+    display: inline-block;
+    width: 20%;
+}
+
+#colorDisplay{
+    font-size: 130%;
+}
+
+.square {
+    /*30% of (Purple)space within container.*/
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 0.6s;
+    /*for browser support since as written above may nt work in all*/
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+
+}
+
+#squares-container{
+max-width: 600px;
+/*Centers elements in container 0 on top bottom and auto right.*/
+margin: 20px auto;
+}
+
+span{
+    color: #960018;
+}
+
+#stripe{
+    background-color: #960018;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%; /*takes 100% of containing element in this case span*/
+    font-weight: 700;
+    color: #FFBF00;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    outline: none;
+}
+
+button:hover{
+    color: #960018;
+    background-color: #FFBF00;
+
+}
